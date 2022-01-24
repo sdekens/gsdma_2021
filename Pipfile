@@ -1,0 +1,38 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+sphinx = "*"
+sphinx-rtd-theme = "*"
+sphinx-gallery = "*"
+nbsphinx = "*"
+pylint = "==2.11.1"
+pytest = "*"
+pbr = "*"
+twine = "*"
+
+[packages]
+ipykernel = "*"
+jupyterlab = "*"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+descartes = "*"
+geopandas = "*"
+geometron = ">=0.0.26"
+panel = "*"
+pyacvd = "*"
+pygmsh = "*"
+gempy = "*"
+pyvistaqt = "*"
+pyqt5 = "*"
+pygdal = "==3.0.4.*"
+flopy = "*"
+pyshp = "*"
+netcdf4 = "*"
+pygeos = "*"
+
+[requires]
+python_version = "3.8"
