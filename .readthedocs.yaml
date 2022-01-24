@@ -16,7 +16,7 @@ build:
     - libgdal-dev
     - libgl1-mesa-dev
     - xvfb
-    - ipykernel
+    - jupyterlab
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
